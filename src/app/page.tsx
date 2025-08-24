@@ -14,13 +14,7 @@ import TrashedTaskList from '@/components/trashed-task-list';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { ScrollArea } from '@/components/ui/scroll-area';
 
-const initialTodos: Todo[] = [
-  { id: '1', title: 'Update my Future Billionaire vision board 💼🚀', completed: false, createdAt: new Date().toISOString(), updatedAt: new Date().toISOString(), colorKey: Math.random() },
-  { id: '2', title: 'Organize desk so it looks like a Pinterest post 📌✨', completed: false, createdAt: new Date().toISOString(), updatedAt: new Date().toISOString(), colorKey: Math.random() },
-  { id: '3', title: 'Conquer Mount Laundry 🏔️👕', completed: true, createdAt: new Date().toISOString(), updatedAt: new Date().toISOString(), colorKey: Math.random() },
-  { id: '4', title: 'Water the plants before they file a complaint 🌱💧', completed: false, createdAt: new Date().toISOString(), updatedAt: new Date().toISOString(), colorKey: Math.random() },
-];
-
+const initialTodos: Todo[] = [];
 
 export default function Home() {
   const [todos, setTodos] = useState<Todo[]>([]);
