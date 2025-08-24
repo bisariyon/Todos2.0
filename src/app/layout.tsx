@@ -4,7 +4,7 @@ import { Toaster } from "@/components/ui/toaster"
 import { ThemeProvider } from '@/components/theme-provider';
 
 export const metadata: Metadata = {
-  title: 'Task Canvas',
+  title: 'Todos',
   description: 'A modern to-do application with AI-powered suggestions.',
 };
 
